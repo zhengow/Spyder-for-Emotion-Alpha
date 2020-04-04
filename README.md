@@ -5,6 +5,8 @@ requests==2.19.1
 
 ### Use
 单账号抓取：请你打开百度的首页，登录后，找到www.baidu.com此条GET请求，并复制此条请求的request headers里的cookie，将此cookie粘贴到config.py中的COOKIES对象中  
+
+完成之后运行python3 demo.py即可进行股票的百度指数爬取。
   
 
 ### Tip
